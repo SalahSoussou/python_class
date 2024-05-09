@@ -17,6 +17,12 @@ x = 33
 a,b,c=1,2,3
 print(myVar) # value
 print(x) # 33
-help('keywords')
+# help('keywords') ==>  list of the Python keywords
 
+#--------------------
+# Escap Sequences Characters
+# \b  =>  Back Space
+#--------------------
+print("Hello\bWold") # => HellbWold
 
+print("escap Characters \" \\") # => escap Characters " \
