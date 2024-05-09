@@ -26,3 +26,16 @@ print(x) # 33
 print("Hello\bWold") # => HellbWold
 
 print("escap Characters \" \\") # => escap Characters " \
+
+print ("hello in \n new line")  # => \n  = new line
+
+# Carriage Return  \r
+
+print("123456\rabcd") # abcd56
+
+# horizontal Tab \t
+
+print('hello\tpython') # hello   python
+
+
+
