@@ -4,6 +4,11 @@ b = 'string'
 
 print(a+b) #  hello string
 
-myStr = 'string"test"'
+myStr = 'String"test"'
 
-print(myStr) #  string"test"
+print(myStr) #  String"test"
+
+# Indexing (Access Item)
+
+print(myStr[0]) #  Index [0]=> S
+
