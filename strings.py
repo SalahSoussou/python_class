@@ -26,6 +26,11 @@ print(myString[:7]) # I Love
 print(myString[7:]) # Python
 
 
+print(myString[0::2]) # ILv yhn
+
+
+
+
 
 
 
