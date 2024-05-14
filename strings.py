@@ -28,6 +28,20 @@ print(myString[7:]) # Python
 
 print(myString[0::2]) # ILv yhn
 
+# str Methods
+
+myVar = "   Welcome to Linux Lite    "
+print(len(myVar)) #  => 28
+
+# strip()  rstrip()  lstrip()  =>  remove whitespace
+
+print(myVar.strip())
+print(myVar.rstrip())
+print(myVar.lstrip())
+
+
+
+
 
 
 
