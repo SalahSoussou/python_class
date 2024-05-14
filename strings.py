@@ -39,10 +39,25 @@ print(myVar.strip())
 print(myVar.rstrip())
 print(myVar.lstrip())
 
+mys = "@@@@Welcome to Linux Lite@@@"
+print(mys.strip("@")) # => Welcome to Linux Lite
 
+#
+# mys.title()
+#=> Return a version of the string where each word is titlecased.
 
+# mys.capitalize()
+#=> Return a capitalized version of the string.
 
+# zfill
+u, i, j = "1", "11", "111"
+print(u) #=> 1
+print(i) #=> 11
+print(j) #=> 111
 
+print(u.zfill(3)) #=> 001
+print(i.zfill(3)) #=> 011
+print(j.zfill(3)) #=> 111
 
 
 
