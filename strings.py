@@ -60,6 +60,45 @@ print(i.zfill(3)) #=> 011
 print(j.zfill(3)) #=> 111
 
 
-#test#
+#========================================
+######  split()  ,  rsplit()  ####
+#========================================
 
 
+d = "I love python and php"
+
+print(d.split())  #=> ['I', 'love', 'python', 'and', 'php']
+
+
+c = "I-love-python-and-php"
+
+print(c.split("-"))  #=> ['I', 'love', 'python', 'and', 'php']
+
+print(c.split("-",2))  #=> ['I', 'love', 'python-and-php']
+
+# rsplit()
+
+print(c.rsplit("-",2))  #=> ['I-love-python', 'and', 'php']
+
+
+#========================================
+###### center() ####
+#========================================
+
+e = "Salah"
+
+print(e.center(9,"@")) # @@Salah@@
+
+# swapcase() 
+
+g = "I Love Python"
+h = "i lov python"
+
+print(g.swapcase()) # i lOVE pYTHON
+print(h.swapcase()) # I LOV PYTHON
+
+
+# startswith()  vs  endswith()
+
+print(g.startswith("I"))  #True
+print(g.startswith("S"))  #False
