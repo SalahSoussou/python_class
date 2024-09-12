@@ -83,11 +83,15 @@ print(c.rsplit("-",2))  #=> ['I-love-python', 'and', 'php']
 
 #========================================
 ###### center() ####
+###### rjust() ####
+###### ljust() ####
 #========================================
 
 e = "Salah"
 
 print(e.center(9,"@")) # @@Salah@@
+print(e.rjust(9,"@")) # @@@@Salah
+print(e.ljust(9,"@")) # Salah@@@@
 
 # swapcase() 
 
@@ -102,3 +106,46 @@ print(h.swapcase()) # I LOV PYTHON
 
 print(g.startswith("I"))  #True
 print(g.startswith("S"))  #False
+
+#========================================
+###### index(subString, start, end) ####
+#========================================
+
+print(g.index("P")) # => 7
+
+#========================================
+###### find(subString, start, end) ####
+#========================================
+
+print(g.find("P")) # => 7
+print(g.find("P",0,5)) # => -1  "not exested"
+
+
+#  splitlines()
+
+f = """
+this is
+not
+multiple line
+comment
+"""
+
+print(f.splitlines()) # ['', 'this is', 'not', 'multiple line', 'comment']
+
+
+#========================================
+###### replace(Old Value, New Valoue, Count)####
+#========================================
+y = " Hello One Tow Three One One"
+
+print(y.replace("One","1"))  #  Hello 1 Tow Three 1 1
+print(y.replace("One","1",1)) # Hello 1 Tow Three One One
+
+
+
+#========================================
+###### join(Iterable) ####
+#========================================
+myList = ['I', 'love', 'python', 'and', 'php']
+
+print("-".join(myList)) # I-love-python-and-php
