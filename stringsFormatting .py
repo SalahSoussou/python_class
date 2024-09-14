@@ -14,7 +14,7 @@ print("My Name is : %s and My Age is : %d and Rank is %f" % (name,age,rank))
 # %d => Number
 # %f => Float
 
-print("My Rank is %f" % (rank)) #10.000000
+print("My Rank is %f" % rank) #10.000000
 print("My Rank is %.2f" % (rank)) #10.00
 
 # =============================================
